@@ -7,7 +7,7 @@ def getConfig():
     return config
 
 def getUsername() -> str:
-    return 'xxx'
+    return 'echan03'
 
 def getToken() -> str:
     return 'secret'
