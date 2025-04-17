@@ -7,8 +7,8 @@ def getConfig():
     return config
 
 def getUsername() -> str:
-    return 'xxx'
+    return getConfig()['CREDENTIALS']['username']
 
 def getToken() -> str:
-    return 'secret'
+    return getConfig()['CREDENTIALS']['token']
 
